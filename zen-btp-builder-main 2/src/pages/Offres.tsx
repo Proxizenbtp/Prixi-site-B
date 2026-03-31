@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Check, ArrowRight, Star } from "lucide-react";
 import Layout from "@/components/Layout";
-import SectionCTA from "@/components/SectionCTA";
 
 const stagger = {
   hidden: {},
@@ -225,8 +224,6 @@ const Offres = () => {
           </motion.div>
         </div>
       </section>
-
-      <SectionCTA buttonText="Demander un devis personnalisé" />
     </Layout>
   );
 };

@@ -6,7 +6,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Layout from "@/components/Layout";
-import SectionCTA from "@/components/SectionCTA";
 
 const faqs = [
   {
@@ -80,8 +79,6 @@ const FAQ = () => {
           </Accordion>
         </div>
       </section>
-
-      <SectionCTA title="Vous avez d'autres questions ?" buttonText="Contactez-nous" />
     </Layout>
   );
 };
