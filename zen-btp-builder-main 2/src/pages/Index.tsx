@@ -18,7 +18,6 @@ import {
   ChevronRight,
 } from "lucide-react";
 import Layout from "@/components/Layout";
-import SectionCTA from "@/components/SectionCTA";
 import heroBtp from "@/assets/hero-btp.jpg";
 import { useRef } from "react";
 
@@ -135,12 +134,6 @@ const Index = () => {
               dans leur organisation administrative.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="text-base px-8 bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg shadow-accent/25">
-                <Link to="/contact">
-                  Prendre rendez-vous
-                  <ArrowRight className="ml-2" size={18} />
-                </Link>
-              </Button>
               <Button
                 asChild
                 size="lg"
@@ -409,8 +402,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA FINAL */}
-      <SectionCTA />
     </Layout>
   );
 };

@@ -19,7 +19,6 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import Layout from "@/components/Layout";
-import SectionCTA from "@/components/SectionCTA";
 
 const stagger = {
   hidden: {},
@@ -263,7 +262,7 @@ const Accompagnement = () => {
         </div>
       </section>
 
-      <SectionCTA />
+
     </Layout>
   );
 };

@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Shield, Eye, Heart, Users } from "lucide-react";
 import Layout from "@/components/Layout";
-import SectionCTA from "@/components/SectionCTA";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -121,7 +120,7 @@ const APropos = () => {
         </div>
       </section>
 
-      <SectionCTA title="Envie de nous connaître davantage ?" buttonText="Prendre contact" />
+
     </Layout>
   );
 };
