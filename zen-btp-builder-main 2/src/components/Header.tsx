@@ -67,7 +67,7 @@ const Header = () => {
             asChild
             className={scrolled ? "" : "bg-accent hover:bg-accent/90 text-accent-foreground"}
           >
-            <Link to="/contact">Demander un échange</Link>
+            <Link to="/contact">Contactez-nous</Link>
           </Button>
         </div>
 
@@ -111,7 +111,7 @@ const Header = () => {
               <div className="pt-2 px-4">
                 <Button asChild className="w-full">
                   <Link to="/contact" onClick={() => setMobileOpen(false)}>
-                    Demander un échange
+                    Contactez-nous
                   </Link>
                 </Button>
               </div>
